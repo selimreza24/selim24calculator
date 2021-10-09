@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" placeholder="0" id="calc-screen" disabled>
+        <hr>
+
+        <input type="button" value="&radic;" class="calc-btn" onclick="opaterotsBtn('&radic;')">
+        <input type="button" value="%" class="calc-btn" onclick="numberBtn('%')">
+        <input type="button"  value="C" class="calc-btn" onclick="clearBtn('C')">
+        <input type="button" value="Del" class="calc-btn" onclick="delBtn('Del')">
+
+        <br>
+        <input type="button" value="7" class="calc-btn" onclick="numberBtn('7')">
+        <input type="button" value="8" class="calc-btn" onclick="numberBtn('8')">
+        <input type="button" value="9" class="calc-btn" onclick="numberBtn('9')">
+        <input type="button" value=" &div;" class="calc-btn" onclick="numberBtn('/')">
+        <br>
+
+
+        <input type="button" value="4" class="calc-btn" onclick="numberBtn('4')">
+        <input type="button" value="5" class="calc-btn" onclick="numberBtn('5')">
+        <input type="button" value="6" class="calc-btn" onclick="numberBtn('6')">
+        <input type="button" value=" &times;" class="calc-btn" onclick="numberBtn('*')">
+        <br>
+
+        <input type="button" value="1" class="calc-btn" onclick="numberBtn('1')">
+        <input type="button" value="2" class="calc-btn" onclick="numberBtn('2')">
+        <input type="button" value="3" class="calc-btn" onclick="numberBtn('3')">
+        <input type="button" value="&minus;" class="calc-btn" onclick="numberBtn('-')">
+        <br>
+
+        <input type="button" value="0" class="calc-btn" onclick="numberBtn('0')">
+        <input type="button" value="." class="calc-btn" onclick="numberBtn('.')">
+        <input type="button" value="=" class="calc-btn" onclick="ecualBtn()">
+        <input type="button" value="+" class="calc-btn" onclick="numberBtn('+')">
+
+
+    
+    </div>
+
+
+    <script src="jQuery.js"></script>
+    <script src="calc-app.js"></script>
+</body>
+</html>
